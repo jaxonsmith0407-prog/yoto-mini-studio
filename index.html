@@ -39,7 +39,7 @@ button:disabled{opacity:.5}
 <script>
 const $=id=>document.getElementById(id);
 const redirectUri=location.origin+location.pathname;
-const scopes="family:library:view user:content:manage offline_access";
+const scopes="family:library:view offline_access";
 
 function randomText(){
   const bytes=crypto.getRandomValues(new Uint8Array(32));
